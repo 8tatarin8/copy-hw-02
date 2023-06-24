@@ -46,24 +46,40 @@ img {
 }
 
 /*прописуємо загальні стилі*/
+.logo-webstudio-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
 .body {}
+
+.main-header{}
+
+.main{}
 
 .section {}
 
+.footer {}
+
+.footer-text {}
+
 /*
 ====================================
-HEADER
+----------------HEADER--------------
 ====================================
 */
-.main-header {}
 
-.navigation {}
+.header-navigation {}
 
-.webstudio-text {}
+.header-menu-list {}
 
-.menu-list {}
-
-.menu-item {
+.header-menu-item {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -73,46 +89,101 @@ HEADER
     color: #2E2F42;
 }
 
-.menu-link {}
+.header-menu-link {}
 
-.page-adress {}
-
-.header-contacts {}
-
-.header-contacts-item {}
-
-.contact-mail {}
-
-.contact-tel {}
-
-/*
-====================================
-HEADER ADRESS
-====================================
-*/
-.page-adress {}
+/*інтерактивні посилання*/
+.header-page-adress {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 .header-contacts {}
 
 .header-contacts-item {}
 
-.contact-mail {}
+.header-contact-mail {}
 
-.contact-tel {}
-
-/*
-====================================
-СЕКЦІЯ ХІРО
-====================================
-*/
-.hero-servise {}
-
-.hero-solutions {}
-
-.hero-button-servise {}
+.header-contact-tel {}
 
 /*
 ====================================
-СЕКЦІЯ 2
+----------------MAIN----------------
 ====================================
 */
+
+.section-hero-servise {}
+
+.section-hero-solutions {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+     color: #2E2F42;
+}
+
+.section-hero-button-servise {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+}
+
+.section-our-goals {}
+
+.section-our-goals-list {}
+
+.section-our-goals-item {}
+
+.section-our-goals-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-our-goals-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section-proposition {}
+
+.section-proposition-title {}
+
+.section-proposition-list {}
+
+.section-proposition-item {}
+
+.section-proposition-img {}
+
+.section-team {}
+
+.section-team-first-title {}
+
+.section-team-list {}
+
+.section-team-item {}
+
+.section-team-img {}
+
+.section-team-title-name {}
+
+.section-team-category {}
