@@ -57,7 +57,9 @@ img {
     color: #2E2F42;
 }
 
-.body {}
+.body {
+    font-family: 'Roboto', sans-serif
+}
 
 .main-header{}
 
@@ -76,12 +78,11 @@ color: #404BBF;
 }
 /*
 ====================================
-----------------BUTTON--------------
+BUTTONS STYLES
 ====================================
 */
 /*---------------INDEX---------------*/
 .section-hero-button-servise {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -101,7 +102,6 @@ border-radius: 4px;
 }
 /*---------------PORTFOLIO---------------*/
 .menu-btn-item {
-    font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -135,7 +135,6 @@ border-radius: 4px;
 .header-menu-list {}
 
 .header-menu-item {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -148,7 +147,6 @@ border-radius: 4px;
 
 /*інтерактивні посилання*/
 .header-contacts-item {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -171,16 +169,17 @@ border-radius: 4px;
 ====================================
 */
 
-.section-hero-servise {}
+.section-hero-servise {
+    background-color: #2E2F42;
+}
 
 .section-hero-solutions {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-     color: #2E2F42;
+     color: #FFFFFF
 }
 
 
@@ -191,7 +190,6 @@ border-radius: 4px;
 .section-our-goals-item {}
 
 .section-our-goals-title {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -201,7 +199,6 @@ border-radius: 4px;
 }
 
 .section-our-goals-text {
-    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
