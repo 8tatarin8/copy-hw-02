@@ -51,7 +51,7 @@ img {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
@@ -69,6 +69,61 @@ img {
 
 .footer-text {}
 
+/*інтерактивні посилання*/
+.header-contacts-item :hover,
+.header-contacts :focus {
+color: #404BBF;
+}
+/*
+====================================
+----------------BUTTON--------------
+====================================
+*/
+/*---------------INDEX---------------*/
+.section-hero-button-servise {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+
+}
+
+/*BUTTON/ACTIVE/INDEX*/
+.section-hero-button-servise:hover,
+.section-hero-button-servise:focus {
+background-color: #404BBF;
+color: #FFFFFF;
+border-radius: 4px;
+}
+/*---------------PORTFOLIO---------------*/
+.menu-btn-item {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+.filter-button {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    
+}
+/*BUTTON/ACTIVE/PORTFOLIO*/
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+
 /*
 ====================================
 ----------------HEADER--------------
@@ -84,7 +139,7 @@ img {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -92,12 +147,12 @@ img {
 .header-menu-link {}
 
 /*інтерактивні посилання*/
-.header-page-adress {
+.header-contacts-item {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -123,20 +178,11 @@ img {
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
      color: #2E2F42;
 }
 
-.section-hero-button-servise {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    color: #2E2F42;
-}
 
 .section-our-goals {}
 
@@ -149,7 +195,7 @@ img {
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -159,7 +205,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
