@@ -56,6 +56,9 @@ img {
     text-transform: uppercase;
     color: #2E2F42;
 }
+.web-text {
+    color: #4D5AE5;
+}
 
 .body {
     font-family: 'Roboto', sans-serif
