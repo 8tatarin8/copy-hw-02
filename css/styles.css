@@ -70,8 +70,12 @@ img {
 
 .section {}
 
-.footer {}
-
+.footer {
+     background-color: #2E2F42;
+}
+.footer-studio-text {
+    color: #F4F4FD;
+}
 .footer-text {}
 
 /*інтерактивні посилання*/
